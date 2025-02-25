@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif; /* Classic & Elegant Font */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ede7f6; /* Light Violet Background */
+  color: #4a3f55; /* Deep Muted Plum */
+}
+
+/* Weather App Container */
+.container {
+  width: 400px;
+  background: #f3ebff; /* Slightly Muted Violet */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 8px 16px rgba(74, 63, 85, 0.2);
+  border: 2px solid #b8a3c2; /* Soft Gold Border */
+}
+
+/* Title */
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3c2e47;
+  margin-bottom: 20px;
+}
+
+/* Input Field */
+input {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #b8a3c2; /* Soft Gold */
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  text-align: center;
+  background-color: #f9f5ff;
+  color: #4a3f55;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #8c739c; /* Refined Violet Tone */
+}
+
+/* Search Button */
+#btn {
+  width: 90%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #5f3b77; /* Classic Deep Violet */
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#btn:hover {
+  background: #472b5b;
+}
+
+#btn:active {
+  background: #3a2347;
+}
+
+/* Weather Info Box */
+.weather-info {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9f5ff;
+  border: 1px solid #b8a3c2;
+  box-shadow: 0px 6px 12px rgba(74, 63, 85, 0.2);
+}
+
+.weather-info h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #3c2e47;
+}
+
+.weather-info p {
+  font-size: 16px;
+  color: #5a4966;
+}
+
+.weather-icon {
+  width: 100px;
+  margin-top: 10px;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));
+}
